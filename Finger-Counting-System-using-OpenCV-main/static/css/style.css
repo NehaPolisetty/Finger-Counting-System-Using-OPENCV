@@ -1,0 +1,37 @@
+/* Custom styles */
+#videoContainer {
+    transition: all 0.3s ease-in-out;
+}
+
+#countDisplay {
+    backdrop-filter: blur(5px);
+}
+
+/* Animation for the count display */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+#fingerCount {
+    animation: pulse 1s infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} 
