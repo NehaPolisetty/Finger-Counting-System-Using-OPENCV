@@ -1,1 +1,0 @@
-# Finger-Counting-System-Using-OPENCV
